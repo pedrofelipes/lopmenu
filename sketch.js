@@ -1,6 +1,5 @@
 let img;
 let menuAtual = "principal";
-let ybalao = 0
 
 function preload() {
   img = loadImage('transferir.jpg');
@@ -76,13 +75,9 @@ function menuPrincipal() {
 }
 
 function jogo() {
-  for(i = 0; i < 100; i++ ){
-background(80)  
-ellipse(200,i,50,50)
-i += 1
-} 
-  
-  
+  background(80)  
+  ellipse(350,350,50,50)
+
   rectMode(CENTER);
   fill(150);
   rect(100, 375, 200, 50);
@@ -98,7 +93,7 @@ i += 1
 function menuInstruções() {
   textSize(25);
   textAlign(CENTER, CENTER);
-  text("gatinho miau miau", 200, 150 );
+  text("Estoure os balões da cor indicada!", 200, 150 );
   
   rectMode(CENTER);
   fill(150);
@@ -113,7 +108,7 @@ function menuInstruções() {
 function menuCréditos() {
   textSize(45);
   textAlign(CENTER, CENTER);
-  text("eu!", 200, 150 );
+  text("pedro felipe!", 200, 150 );
   
   rectMode(CENTER);
   fill(150);
