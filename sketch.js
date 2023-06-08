@@ -51,15 +51,13 @@ function menuPrincipal() {
   textSize(55);
   textAlign(CENTER, CENTER);
   text("menu!", 200, 50 );
-  //texto no topo da tela, nome do jogo
-  
+ 
   rectMode(CENTER);
   fill(150);
   rect(200, 200, 200, 50);
   textSize(35);
   fill(0);
-  text("JOGAR", 200, 200);
-  //botão jogar
+  text("JOGAR", 200, 200)
   
   rectMode(CENTER);
   fill(150);
@@ -67,7 +65,6 @@ function menuPrincipal() {
   textSize(25);
   fill(0);
   text("INSTRUÇÕES", 200, 250);
-  //botão instruções
   
   rectMode(CENTER);
   fill(150);
@@ -75,8 +72,7 @@ function menuPrincipal() {
   textSize(25);
   fill(0);
   text("CRÉDITOS", 200, 300);
-  //botão créditos
-  
+
 }
 
 function jogo() {
@@ -129,4 +125,3 @@ function menuCréditos() {
 
 
 }
-
